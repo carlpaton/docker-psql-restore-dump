@@ -6,7 +6,7 @@ From powershell `run.ps1`
 # Create some tables / data
 _This step is not needed if you already have a dump file_
 
-Connect with an editor (PgAdmin, Dbeaver) to `localhost:5432` and add some data to be used with the dump
+Connect with any editor (PgAdmin, Dbeaver) to `localhost:5432` with username `postgres` and password `postgres` then add some data to be used with the dump
 
 `
 CREATE TABLE public.staff_master (
