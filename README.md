@@ -14,6 +14,7 @@ insert_date date,
 salary real,  
 CONSTRAINT employee_pkey PRIMARY KEY (id));
 `
+
 `
 INSERT INTO public.staff_master
 (first_name, surname, email, insert_date, salary)
