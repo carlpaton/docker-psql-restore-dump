@@ -31,6 +31,7 @@ From powershell `docker exec -it postgres-db bash`
 
 # Dump something to test with from 'postgres'
 _This step is not needed if you already have a dump file_
+
 From powershell `pg_dump -U postgres -v -Fc postgres -f /dump/mydump.dump`
 
 # Create 'mydb'
