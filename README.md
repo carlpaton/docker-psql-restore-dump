@@ -1,3 +1,5 @@
+This will create 2 containers `postgres-db` and `postgres-copy`, db is the database and copy is a volitile container used to copy your `mydump.sql` file to a volumn, from there the db container will have access to it.
+
 # download latest image and spin up
 From powershell `run.ps1`
 
