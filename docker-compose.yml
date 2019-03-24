@@ -1,0 +1,24 @@
+version: "3.6"
+services:
+
+  postgres-db:
+    container_name: "postgres-db"
+    image: "postgres:11.2"
+    environment:
+      - POSTGRES_PASSWORD=Password123  
+    volumes:
+      - postgres-vol:/dump
+    ports:
+      - "5432:5432"
+
+  postgres-copy:
+    container_name: "postgres-copy"
+    build: ./
+    image: postgres_copy
+    volumes:
+      - postgres-vol:/dump
+    depends_on:
+      - postgres-db    
+
+volumes:
+    postgres-vol:
