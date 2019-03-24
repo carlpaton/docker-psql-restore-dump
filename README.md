@@ -35,6 +35,8 @@ From powershell `docker exec -it postgres-db bash`
 
 This should then reflect the file you copied `mydump.sql`
 
+You can also `CAT mydump.sql` but if its large your pc may fall on its head.
+
 # Dump something to test with from 'postgres'
 _This step is not needed if you already have a dump file_
 
