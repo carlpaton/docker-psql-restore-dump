@@ -42,6 +42,10 @@ _This step is not needed if you already have a dump file_
 
 From powershell `pg_dump -U postgres -v -Fc postgres -f /dump/mydump.dump`
 
+`dir`
+
+You should now see `mydump.dump` and `mydump.sql` where the dump file is the one you just created
+
 # Create 'mydb'
 From powershell `psql -U postgres -c "CREATE DATABASE mydb OWNER = postgres TABLESPACE pg_default;"`
 
