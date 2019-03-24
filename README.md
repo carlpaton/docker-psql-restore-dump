@@ -29,6 +29,12 @@ VALUES
 # Create interactive session
 From powershell `docker exec -it postgres-db bash`
 
+`cd dump`
+
+`dir`
+
+This should then reflect the file you copied `mydump.sql`
+
 # Dump something to test with from 'postgres'
 _This step is not needed if you already have a dump file_
 
