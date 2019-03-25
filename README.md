@@ -58,4 +58,4 @@ Exit
 
 # Alternative Copy
 
-`docker cp largefile.zip bd2f2aae3b84:/dump/largefile.zip`
+`docker cp mydump.sql bd2f2aae3b84:/dump/mydump.sql`
