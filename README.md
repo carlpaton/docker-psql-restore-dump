@@ -55,3 +55,7 @@ From powershell `pg_restore -U postgres -d mydb < /dump/mydump.dump`
 # Quit
 CTRL+C
 Exit
+
+# Alternative Copy
+
+`docker cp largefile.zip bd2f2aae3b84:/largefile.zip`
