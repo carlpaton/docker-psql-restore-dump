@@ -62,3 +62,5 @@ If the file is massive you can try this method to copy
 `docker cp mydump.sql bd2f2aae3b84:/dump/mydump.sql`
 
 .. where `bd2f2aae3b84` is the name of your container which you can get by running `docker ps --all`
+
+You can then check the files on the container with `ls -l --block-size=M`
