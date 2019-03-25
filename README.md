@@ -57,5 +57,8 @@ CTRL+C
 Exit
 
 # Alternative Copy
+If the file is massive you can try this method to copy
 
 `docker cp mydump.sql bd2f2aae3b84:/dump/mydump.sql`
+
+.. where `bd2f2aae3b84` is the name of your container which you can get by running `docker ps --all`
